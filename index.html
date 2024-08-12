@@ -8,7 +8,19 @@
   </head>
   <body>
     <div id="root">
-        Hello Vite!
+      <h1>The Book Search App!</h1>
+      <div>
+        <label>Keyword: <input type="text" name="keyword" placeholder='The great gatsby' /></label>
+        &nbsp;
+        <label>
+            Sort:
+            <select>
+                <option value="">Relevance</option>
+                <option value="title">Title</option>
+                <option value="new">Recently Published</option>
+            </select>
+        </label>
+    </div>
     </div>
     <script type="module" src="src/index.jsx"></script>
   </body>
